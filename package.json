@@ -1,16 +1,32 @@
 {
-  "name": "solace",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
-  },
+  "name": "solace-react-app",
+  "version": "1.0.0",
+  "description": "A mental health app with journaling, chatbot, and soft landing features.",
+  "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "keywords": ["mental health", "react", "chatbot", "journaling"],
+  "author": "Kaviya Devi",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
